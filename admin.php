@@ -19,8 +19,8 @@
   </head>
   <body>
   <form method="get" action="admin.php">
-    <input type="text" name="shopname" /><br>
-    <input type="text" name="password" /><br>
+    店舗ID:<input type="text" name="shopname" /><br>
+    パスワード:<input type="text" name="password" /><br>
     <input type="submit" value="送信" />
   </form>
   </body>
