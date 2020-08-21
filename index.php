@@ -39,7 +39,7 @@
     <h3>A定食　<span id="nowA"></span>個</h3>
     <h3>B定食　<span id="nowB"></span>個</h3>
     <h3>C定食　<span id="nowC"></span>個</h3>
-    <input type="submit" value="確定" onclick="OKCliuck()" />
+    <input type="submit" value="確定" onclick="OKClick()">
     <?php
       header('Content-type: application/json; charset=utf-8');
       $sumA = filter_input( INPUT_GET, 'sumA' );
