@@ -22,4 +22,18 @@ function addClick() {
     choose();
 }
 
+function OKClick() {
+    var res = window.confirm("注文を確定します。よろしいですか？");
+
+    if (res) {
+        $.ajax({
+            type: "GET",
+            url: "index.php",
+            data: { 'sumA': sumA, 'sumB': sumB, 'sumC': sumC },
+            dataType: "json",
+            scriptCharset:'utf-8'
+        })
+    }
+}
+
 window.onload = choose;

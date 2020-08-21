@@ -32,11 +32,18 @@
       <option value=4>4</option>
     </select>
     <input type="button" value="追加" onclick="addClick()">
-
     <h2>カート</h2>
     <h3>A定食　<span id="nowA"></span>個</h3>
     <h3>B定食　<span id="nowB"></span>個</h3>
     <h3>C定食　<span id="nowC"></span>個</h3>
-    <input type="button" value="確定" onclick="OKClick()">
+    <input type="submit" value="確定" onclick="OKCliuck()" />
+    <form method="get" action="index.php">
+    <?php
+      header('Content-type: application/json; charset=utf-8');
+      $sumA = filter_input( INPUT_GET, 'sumA' );
+      $sumB = filter_input( INPUT_GET, 'sumB' );
+      $sumC = filter_input( INPUT_GET, 'sumC' );
+    ?>
+    </form>
   </body>
 </html>
