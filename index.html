@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>QR-Order</title>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
     <h1>〇〇食堂　〇番テーブル</h1>
@@ -34,8 +34,9 @@
     <input type="button" value="追加" onclick="addClick()">
 
     <h2>カート</h2>
-    <h3>A定食</h3>
-    <h3>B定食</h3>
-    <h3>C定食</h3>
+    <h3>A定食　<span id="nowA"></span>個</h3>
+    <h3>B定食　<span id="nowB"></span>個</h3>
+    <h3>C定食　<span id="nowC"></span>個</h3>
+    <input type="button" value="確定" onclick="OKClick()">
   </body>
 </html>

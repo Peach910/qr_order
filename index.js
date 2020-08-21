@@ -2,6 +2,12 @@ var sumA = 0;
 var sumB = 0;
 var sumC = 0;
 
+function choose(){
+    document.getElementById("nowA").innerHTML = sumA;
+    document.getElementById("nowB").innerHTML = sumB;
+    document.getElementById("nowC").innerHTML = sumC;
+}
+
 function addClick() {
     const numA = parseInt(document.getElementById("numA").value ,10);
     const numB = parseInt(document.getElementById("numB").value ,10);
@@ -12,6 +18,8 @@ function addClick() {
     sumC += numC;
     //console.log(sumA);
     //console.log(numA);
+
+    choose();
 }
 
-document 
+window.onload = choose;
