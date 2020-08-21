@@ -19,9 +19,9 @@
         print "ログイン中:{$shopname}";
         print "<div><form method='get' action='admin.php'><ul>";
         for($i=1;$i<10;$i++){
-          print "<li>{$i}番テーブル pass:<input type='text' name='table{$i}'></li>";
+          print "<li>{$i}番テーブル pass:<input type='text' name='table{$i}' /></li>";
         }
-        print "</ul></form></div>";
+        print "</ul><br><input type='submit' value='決定' /></form></div>";
       }else{
         print "パスワードが間違っています";
       }
