@@ -1,13 +1,11 @@
 <?php
-  function f(){
-    $shopname=$_REQUEST["shopname"];
-    $password=$_REQUEST["password"];
-    if ($shopname != "" && $password != ""){
-      if ($password == "0000"){
-        echo "OK";
-      }else{
-        echo "パスワードが間違っています";
-      }
+  $shopname=$_REQUEST["shopname"];
+  $password=$_REQUEST["password"];
+  if ($shopname != "" && $password != ""){
+    if ($password == "0000"){
+      echo "OK";
+    }else{
+      echo "パスワードが間違っています";
     }
   }
 ?>
