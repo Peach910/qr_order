@@ -1,15 +1,3 @@
-<?php
-  $shopname=$_REQUEST["shopname"];
-  $password=$_REQUEST["password"];
-  if ($shopname != "" && $password != ""){
-    if ($password == "0000"){
-      echo "OK";
-    }else{
-      echo "パスワードが間違っています";
-    }
-  }
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,3 +13,15 @@
   </form>
   </body>
 </html>
+
+<?php
+  $shopname=$_REQUEST["shopname"];
+  $password=$_REQUEST["password"];
+  if ($shopname != "" && $password != ""){
+    if ($password == "0000"){
+      echo "OK";
+    }else{
+      echo "パスワードが間違っています";
+    }
+  }
+?>
