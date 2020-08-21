@@ -7,10 +7,11 @@
   </head>
   <body>
   <form method="get" action="admin.php">
-  <?php
     ID:<input type="text" name="shopname" /><br>
     pass:<input type="text" name="password" /><br>
     <input type="submit" value="送信" />
+  </form>
+  <?php
     $shopname=$_REQUEST["shopname"];
     $password=$_REQUEST["password"];
     if ($shopname != "" && $password != ""){
@@ -21,6 +22,5 @@
       }
     }
   ?>
-  </form>
   </body>
 </html>
