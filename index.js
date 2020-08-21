@@ -13,3 +13,5 @@ function addClick() {
     //console.log(sumA);
     //console.log(numA);
 }
+
+document 
