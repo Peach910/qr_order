@@ -39,7 +39,6 @@
     <h3>B定食　<span id="nowB"></span>個</h3>
     <h3>C定食　<span id="nowC"></span>個</h3>
     <input type="submit" value="確定" onclick="OKCliuck()" />
-    <form method="get" action="index.php">
     <?php
       header('Content-type: application/json; charset=utf-8');
       $sumA = filter_input( INPUT_GET, 'sumA' );
