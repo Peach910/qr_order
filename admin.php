@@ -19,9 +19,9 @@
   $password=$_REQUEST["password"];
   if ($shopname != "" && $password != ""){
     if ($password == "0000"){
-      echo $shopname + "店でログインしています";
+      print $shopname + "店でログインしています";
     }else{
-      echo "パスワードが間違っています";
+      print "パスワードが間違っています";
     }
   }
 ?>
