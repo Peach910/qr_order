@@ -1,3 +1,6 @@
+<?php
+print "サンプル";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,7 +9,5 @@
     <script type="text/javascript" src="admin.js"></script>
   </head>
   <body>
-    <h1><?php echo "サンプル";></h1>
-    <?php print "サンプル2"; ?>
   </body>
 </html>
