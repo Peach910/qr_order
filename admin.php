@@ -17,6 +17,11 @@
     if ($shopname != "" && $password != ""){
       if ($password == "0000"){
         print "ログイン中:{$shopname}";
+        print "<div><form method='get' action='admin.php'><ul>";
+        for($i=1;$i<10;$i++){
+          print "<li>{$i}番テーブル pass:<input type='text' name='table{$i}'></li>";
+        }
+        print "</ul></form></div>";
       }else{
         print "パスワードが間違っています";
       }
