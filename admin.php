@@ -20,7 +20,7 @@
     <script type="text/javascript" src="admin.js"></script>
   </head>
   <body>
-  <form method="get" action="f()">
+  <form method="get" action="admin.php">
     <input type="text" name="shopname" /><br>
     <input type="text" name="password" /><br>
     <input type="submit" value="送信" />
