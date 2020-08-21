@@ -27,5 +27,6 @@
       }
     }
   ?>
+  <a href="https://qr-order.herokuapp.com/">店舗用画面はこちら</a>
   </body>
 </html>
