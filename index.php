@@ -45,6 +45,5 @@
       $sumB = filter_input( INPUT_GET, 'sumB' );
       $sumC = filter_input( INPUT_GET, 'sumC' );
     ?>
-    </form>
   </body>
 </html>
