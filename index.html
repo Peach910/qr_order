@@ -3,11 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>QR-Order</title>
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
     <h1>〇〇食堂　〇番テーブル</h1>
-    <input type="checkbox" name="menu" value="A">A定食<br>
-    <input type="checkbox" name="menu" value="B">B定食<br>
-    <input type="checkbox" name="menu" value="C">C定食<br>
+    <h3>A定食</h3>
+    <select name="num">
+      <option value=0>0</option>
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+    </select>
+    <h3>B定食</h3>
+    <select name="num">
+      <option value=0>0</option>
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+    </select>
+    <h3>C定食</h3>
+    <select name="num">
+      <option value=0>0</option>
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+    </select>
+    <input type="button" value="追加" onclick="addClick()">
   </body>
 </html>
